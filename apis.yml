@@ -1,8 +1,26 @@
 aid: structure-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/structure-therapeutics.png
 name: Structure Therapeutics
-description: 'Structure Therapeutics is a company surfaced as a portfolio company of hongshan and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Structure Therapeutics (NASDAQ: GPCR) is a clinical-stage biopharmaceutical
+  company headquartered in South San Francisco, California, developing novel oral
+  small-molecule medicines for chronic diseases with significant unmet medical need.
+  The company applies a structure-based drug discovery platform focused on G protein-coupled
+  receptors (GPCRs) to design once-daily oral therapies, with lead programs centered
+  on oral small-molecule GLP-1 receptor agonists for obesity and metabolic disease.
+  This is a company profile in the API Evangelist network; Structure Therapeutics maintains
+  a corporate and investor web presence, but no public developer API surface was found
+  during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/structure-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Clinical Trials
+- Obesity
+- Metabolic Disease
+- GLP-1
+- GPCR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/structure-therapeutics-domain-security.yml
 - type: Website
   url: https://structuretx.com
+- type: PrivacyPolicy
+  url: https://structuretx.com/privacy-policy/
+- type: TermsOfService
+  url: https://structuretx.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
